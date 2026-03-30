@@ -8,7 +8,33 @@
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-    hello world
+    <nav id="desktop-nav">
+        <div class="logo">Hardik Bhateja</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        
+        </ul>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Hardik Bhateja </div>
+        <div class="hamburger-menu">
+            <div class="hmaburger-icon" onclick="toggleMenu()">
+                <spam></spam>   
+                <spam></spam>
+                <spam></spam>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about"onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience"onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects"onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact"onclick="toggleMenu()">Contacts</a></li>
+             </div>
+        </div>    
+       
+    </nav>
     <script src="script.js"></script>
 </body>
 </html>
