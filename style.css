@@ -280,14 +280,18 @@ section{
   height: 500px;
 }
 .details-container {
-  padding: 1.5rem;
-  flex-direction: column;
-  gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+
 }
 .text-container{
   font-size: 1.25rem;
